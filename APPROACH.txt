@@ -1,0 +1,13 @@
+APPROACH
+
+First I started by creating a program to create IMU data.
+
+It was done by using numpy to create arrays for linear acceleration and angular velocity.
+
+Then I used a publisher to publish this data in imu format which was imported from sensor_msgs library.
+
+For processing the data I read about a few filters like Kalman, madgwick, complementary filter and a few more.
+
+I tried using the complementary filter but was unable to figure out a way to incorporate into my program.
+
+(FILTER)http://wiki.ros.org/imu_complementary_filter?distro=noetic
