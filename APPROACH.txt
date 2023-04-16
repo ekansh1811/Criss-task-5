@@ -10,4 +10,6 @@ For processing the data I read about a few filters like Kalman, madgwick, comple
 
 I tried using the complementary filter but was unable to figure out a way to incorporate into my program.
 
+From what I understood the filters are mainly used to give correct imu values or minimize the error in different conditions which can interfere with its functioning like a magnetic field.
+
 (FILTER)http://wiki.ros.org/imu_complementary_filter?distro=noetic
